@@ -1,0 +1,77 @@
+@import "../partials/var";
+@import "../partials/mixin";
+
+.dashboardAddWidgetContainer {
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.8rem;
+  .dashboardAddWidgetCategoryName {
+    @include font-weight-600;
+    color: $heading-color;
+    font-size: 1.5rem;
+  }
+  .dashboardAddWidgetBtn {
+    color: $shadow-color;
+    border: 1px dashed $border-color;
+    border-radius: 4px;
+    padding: 12px;
+    height: 18rem;
+    @include content-center;
+    @include font-weight-600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+    i {
+      border: 1px dashed $border-color;
+      padding: 4px;
+      width: 1.8rem;
+      height: 1.8rem;
+      border-radius: 50%;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .dashboardWidgetsBtn {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px 12px;
+    align-items: center;
+    margin-top: 1.5rem;
+    column-gap: 12px;
+    row-gap: 12px;
+  }
+  .dashboardWidgets {
+    @include font-weight-600;
+    border-radius: 4px;
+    padding: 12px;
+    height: 18rem;
+    transition: all 0.2s ease-in;
+    @include content-center;
+    box-shadow: 0px 0px 4px $border-color;
+    &:hover {
+      box-shadow: 0px 0px 4px $heading-color;
+      transform: scale(1.02);
+    }
+    position: relative;
+    i {
+      position: absolute;
+      right: 6px;
+      top: 6px;
+      cursor: pointer;
+      color: $border-color;
+      width: 2rem;
+      height: 2rem;
+      padding: 4px;
+      border-radius: 50%;
+      @include content-center;
+      &:hover {
+        box-shadow: 0px 0px 2px $border-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin font-weight-600{
+    font-weight: 600;
+}

@@ -1,0 +1,131 @@
+.dashboardAddWidgetContainer {
+  width: 100vw;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1.8rem;
+}
+
+.dashboardAddWidgetContainer .dashboardAddWidgetCategoryName {
+  font-weight: 600;
+  color: #86ab89;
+  font-size: 1.5rem;
+}
+
+.dashboardAddWidgetContainer .dashboardAddWidgetBtn {
+  color: #cbe2b5;
+  border: 1px dashed #ababab;
+  border-radius: 4px;
+  padding: 12px;
+  height: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 0.85rem;
+}
+
+.dashboardAddWidgetContainer .dashboardAddWidgetBtn i {
+  border: 1px dashed #ababab;
+  padding: 4px;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboardAddWidgetContainer .dashboardWidgetsBtn {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  padding: 0px 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+  -webkit-column-gap: 12px;
+          column-gap: 12px;
+  row-gap: 12px;
+}
+
+.dashboardAddWidgetContainer .dashboardWidgets {
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 12px;
+  height: 18rem;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 4px #ababab;
+          box-shadow: 0px 0px 4px #ababab;
+  position: relative;
+}
+
+.dashboardAddWidgetContainer .dashboardWidgets:hover {
+  -webkit-box-shadow: 0px 0px 4px #86ab89;
+          box-shadow: 0px 0px 4px #86ab89;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.dashboardAddWidgetContainer .dashboardWidgets i {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  cursor: pointer;
+  color: #ababab;
+  width: 2rem;
+  height: 2rem;
+  padding: 4px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboardAddWidgetContainer .dashboardWidgets i:hover {
+  -webkit-box-shadow: 0px 0px 2px #ababab;
+          box-shadow: 0px 0px 2px #ababab;
+}
+/*# sourceMappingURL=dashboardAddWidget.css.map */

@@ -1,0 +1,87 @@
+.headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 12px;
+  -webkit-box-shadow: 0px 2px 4px #cbe2b5;
+          box-shadow: 0px 2px 4px #cbe2b5;
+}
+
+.headerContainer .headerHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #86ab89;
+}
+
+.headerContainer .headerAddWidget {
+  margin-left: auto;
+  font-size: 0.9rem;
+  background-color: #86ab89;
+  color: #fff;
+  font-weight: 500;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 12px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.headerContainer .headerAddWidget:hover {
+  color: #86ab89;
+  outline: 1px solid #86ab89;
+  background-color: #fff;
+}
+
+.headerContainer .refreshIcon {
+  border: 1px solid #86ab89;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #86ab89;
+  margin-right: 12px;
+}
+
+.headerContainer .headerDrpdownDuration {
+  font-size: 0.9rem;
+  border: 1px solid #86ab89;
+  border-radius: 4px;
+  padding: 10px;
+  color: #86ab89;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.headerContainer .headerDrpdownDuration i {
+  margin-left: 4px;
+}
+
+.headerContainer .headerDrpdownDurationOptions {
+  position: absolute;
+  border: 1px solid #86ab89;
+  width: 100%;
+  left: 0;
+  border-radius: 4px;
+  top: 40px;
+  background-color: #fff;
+}
+
+.headerContainer .headerDrpdownDurationOptions div {
+  padding: 10px;
+  border-bottom: 1px solid #86ab89;
+  cursor: pointer;
+}
+
+.headerContainer .headerDrpdownDurationOptions div:hover {
+  background-color: #86ab89;
+  color: #fff;
+}
+
+.headerContainer .headerDrpdownDurationOptions div:last-child {
+  border-bottom: none;
+}
+/*# sourceMappingURL=header.css.map */

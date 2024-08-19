@@ -1,0 +1,73 @@
+@import "../partials/var";
+@import "../partials/mixin";
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  padding: 18px 12px;
+  box-shadow: 0px 2px 4px $shadow-color;
+  .headerHeading {
+    font-size: 1.5rem;
+    @include font-weight-600;
+    color: $heading-color;
+  }
+  .headerAddWidget {
+    margin-left: auto;
+    font-size: 0.9rem;
+    background-color: $heading-color;
+    color: #fff;
+    font-weight: 500;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 12px;
+    transition: all 0.2s ease-in;
+    &:hover {
+      color: $heading-color;
+      outline: 1px solid $heading-color;
+      background-color: #fff;
+    }
+  }
+  .refreshIcon {
+    border: 1px solid $heading-color;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: $heading-color;
+    margin-right: 12px;
+  }
+  .headerDrpdownDuration {
+    font-size: 0.9rem;
+    border: 1px solid $heading-color;
+    border-radius: 4px;
+    padding: 10px;
+    color: $heading-color;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    i {
+      margin-left: 4px;
+    }
+  }
+  .headerDrpdownDurationOptions {
+    position: absolute;
+    border: 1px solid $heading-color;
+    width: 100%;
+    left: 0;
+    border-radius: 4px;
+    top: 40px;
+    background-color: #fff;
+    div {
+      padding: 10px;
+      border-bottom: 1px solid $heading-color;
+      cursor: pointer;
+      &:hover {
+        background-color: $heading-color;
+        color: #fff;
+      }
+    }
+    div:last-child {
+      border-bottom: none;
+    }
+  }
+}
